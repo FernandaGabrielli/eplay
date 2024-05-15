@@ -3,6 +3,7 @@ import { cores } from '../../styles'
 import { TagContainer } from '../Tag/styles'
 
 export const Banner = styled.div`
+  position: relative;
   display: block;
   height: 480px;
   width: 100%;
