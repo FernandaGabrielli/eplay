@@ -2,8 +2,7 @@ import { Imagem, Titulo, Precos } from './styles'
 
 import Tag from '../Tag'
 import Button from '../Button'
-import { useEffect, useState } from 'react'
-import { Game } from '../../pages/Home'
+
 import { formataPreco } from '../ProductsList'
 
 import { useGetFeaturedGameQuery } from '../../services/api'
