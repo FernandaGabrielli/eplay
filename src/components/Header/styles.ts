@@ -17,10 +17,12 @@ export const HeaderBar = styled.header`
   border-radius: 16px;
   margin-bottom: 80px;
 
-  a {
+  a,
+  span {
     color: ${colors.white};
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
   }
 `
 
