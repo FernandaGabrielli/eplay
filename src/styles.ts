@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const colors = {
-  white: '#fff',
+  white: '#eee',
   black: '#111',
   gray: '#333',
-  green: '#10AC84',
-  lightGray: '#A3A3A3'
+  green: '#10ac84',
+  lightGray: '#a3a3a3'
 }
 
 export const breakpoints = {
@@ -17,7 +17,7 @@ export const GlobalCss = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    box-sixing: border-box;
+    box-sizing: border-box;
     font-family: Roboto, sans-serif;
     list-style: none;
   }
@@ -34,7 +34,7 @@ export const GlobalCss = createGlobalStyle`
     margin: 0 auto;
 
     @media (max-width: ${breakpoints.desktop}) {
-    max-width: 80%;
+      max-width: 80%;
     }
   }
 `
